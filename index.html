@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ВВГУбиблиотека</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <a class="brand" href="#" aria-label="Главная — Бренд">
+        <img src="logo.png" alt="BrandName логотип" class="logo-img">
+    </a>
+ 
+
+    <nav class="primary" role="navigation" aria-label="Основная навигация">
+      <a href="#features">Фичи</a>
+      <a href="#about">О продукте</a>
+      <a href="#pricing">Цены</a>
+      <a href="#contact">Контакты</a>
+      <a class="cta" href="#contact">Попробовать</a>
+    </nav>
+  </header>
+
+  <main role="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div>
+        <h1 id="hero-title">Книги для всех студентов</h1>
+        <p class="lead">Ускорьте работу и получайте результаты — всё у нас.</p>
+        <div class="hero-cta">
+          <a class="cta" href="#pricing">Начать бесплатно</a>
+          <a class="btn-secondary" href="#features">Узнать больше</a>
+        </div>
+      </div>
+
+     <div class="hero-visual" aria-hidden>
+        <img src="hero.jpg" alt="Превью продукта" style="width:100%;border-radius:12px;">
+    </div>
+    </section>
+
+    <section id="features" class="features" aria-label="Основные возможности">
+      <article class="feature" aria-labelledby="f1">
+        <h3 id="f1">Управление библиотекой</h3>
+        <p>Читайте, назначайте и отслеживайте какие книги доступны в моем кабинете.</p>
+      </article>
+      <article class="feature" aria-labelledby="f2">
+        <h3 id="f2">Аналитика</h3>
+        <p>Помечайте уже прочитаные книги.</p>
+      </article>
+      <article class="feature" aria-labelledby="f3">
+        <h3 id="f3">Бронь</h3>
+        <p>Бронируйте книги онлайн.</p>
+      </article>
+    </section>
+
+    <section class="two-col" id="about" aria-labelledby="about-title">
+      <article class="about">
+        <h2 id="about-title">Почему студенты выбирают нас</h2>
+        <p class="muted">Мы даем возможность эффективнее учится.</p>
+        <div class="stat-grid" role="list">
+          <div class="stat" role="listitem">
+            <strong>99.9%</strong>
+            <div class="muted">Аптайм</div>
+          </div>
+          <div class="stat" role="listitem">
+            <strong>50%</strong>
+            <div class="muted">Экономия времени</div>
+          </div>
+          
+        </div>
+      </article>
+
+      <aside class="cta-card" aria-labelledby="cta-title">
+        <h3 id="cta-title">Готовы попробовать?</h3>
+        <p class="muted" style="opacity:0.9">Быстрый запуск, персональная поддержка.</p>
+        <div style="margin-top:18px">
+          <a class="cta" href="#contact">Начать бесплатно</a>
+        </div>
+      </aside>
+    </section>
+
+    <section class="testimonials" aria-label="Отзывы клиентов">
+      <blockquote class="test-card">
+        <p>«Приложение полностью изменило наш рабочий процесс — стало проще планировать и контролировать выполнение задач.»</p>
+        <footer class="muted">— Анна Иванова, студент</footer>
+      </blockquote>
+      <blockquote class="test-card">
+        <p>«Стало куда удобнее заниматся.»</p>
+        <footer class="muted">— Игорь Смирнов, преподаватель</footer>
+      </blockquote>
+    </section>
+
+   <section id="pricing" class="pricing" aria-labelledby="pricing-title">
+<h2 id="pricing-title" style="width:100%">Тарифы</h2>
+    <div class="plan">
+        <div class="plan-content">
+            <h3>Бесплатно</h3>
+            <div class="price">0 ₽/мес</div>
+            <p class="muted">Базовые функции.</p>
+        </div>
+        <a href="#contact" class="btn-secondary plan-btn">Зарегистрироваться</a>
+    </div>
+    <div class="plan">
+        <div class="plan-content">
+            <h3>Профессиональная</h3>
+            <div class="price">499 ₽/мес</div>
+            <p class="muted">Полный набор функций.</p>
+        </div>
+        <a href="#contact" class="cta plan-btn">Попробовать</a>
+    </div>
+
+   
+    </section>
+
+    <section id="contact" style="padding:60px;background:#fff">
+      <h2>Связаться</h2>
+      <form style="display:flex;gap:12px;margin-top:14px;" aria-label="Форма обратной связи">
+        <label for="email" class="muted" style="display:none">Email</label>
+        <input id="email" name="email" type="email" placeholder="Ваш email" style="flex:1;padding:12px;border-radius:10px;border:1px solid rgba(15,23,42,0.1)" required>
+        <button class="cta" type="submit">Отправить</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="muted">© 2025 ВВГУбиблиотека. Все права защищены.</div>
+    <div class="muted">Политика конфиденциальности — Условия</div>
+  </footer>
+</body>
+</html>
